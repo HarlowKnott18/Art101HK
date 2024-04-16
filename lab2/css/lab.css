@@ -2,8 +2,41 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #124912;
+    background-color: #b5ffbb;
+  } 
+
+  h1 {
+    
+    color:#122f5f; 
+    font-family:Georgia;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+
+  }
+.photo {
+  max-width: 400px;
+  display:block;
+  margin: 0 auto;
+  object-position: center;
+ 
+}
+
+#content {
+  background-color: #5faa5f;
+}
+
+h2 {
+  color: #122f5f;
+}
+  p {
+    font-family:georgia;
+    margin-left: 10px;
+    color:#122f5f
+  }
+  body {
+    background-color: #f5f775;
   }
