@@ -1,5 +1,5 @@
 // *
-//**
+//*
 //* 
  //*Toyota Yaris Car Code
  //* coding datatype and variables for Toyota Yaris
@@ -13,6 +13,7 @@ make = "Toyota";
 model = "Yaris";
 color = "Red";
 year = 2018;
+ownIt = true;
 
 //calculate 
 age = 2024 - year;
@@ -23,3 +24,4 @@ document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
 document.writeln("Age: " + age + " years<br>");
+document.writeln("ownIt: " + ownIt + "<br>");
