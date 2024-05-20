@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 11: Javascript Events and Forms- </title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <head>
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+		<link rel="stylesheet" type="text/css" href="css/lab.css">
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script src="js/lab.js" DEFER></script>
+		
+		<div class="linkbox">
+			<a class="homelink" href="../index.html">&lt;&lt; Back home</a>
+			
+		</div>
+		
+
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	
+	<main id="content">
+		<section>
+			<h1>Lab 11 - Javascript Events and Forms</h1>
+
+		
+			<div class="minor-section">
+
+				
+				<h2>Challenge</h2>
+					<p>The challenge of this lab was to experiment with Javascript events to create a name input that 
+					   links to a "new name" output.
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p>We didn't have too many issues with this lab! Our main issues came with formatting and making sure we put our 
+					   code in the right place so it would work. When we were creating our submit function, we realized that in order for 
+					   our input to work and our button to link, we had to include the constant and our user name sorted within the function for it
+					   to work. We also wanted to include the "my name is" image on our page, and it took a while to try to get our text to fit in the center 
+					   of the image, but we adjusted the left margin a lot and we got our text centered. We also struggled a bit when removing the gap between our bottom
+					   image and our input button, but consulted the web and ChatGPT and got a solution!
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>This lab went pretty well! Our main issues were just with making sure our code worked and was formatted in the correct way. We had to make sure that 
+						we put specific parts of our code within the {} brackets so that the function linked to the actions. We also had a bit of trouble with making our website look
+						spiffy, but we trouble-shooted it and was able to get our desired result!
+						</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p>Our results are below! Type your name into the input box an hit the submit button to see your new name!</p>
+			</div>
+			<div id="image-part">
+				<div class="namebadge"><img src="img/hello.jpg"></div>
+				<div id="output"><div class="name-results">Laohrw</div></div>
+			</div>
+				<div id="output">
+					<input  type="text" id="user-name" placeholder="Input your name">
+					<button id="submit">Submit</button> 
+				</div>
+				<img id="centered-img" src="img/mynameisjeff.gif" width=500>
+
+		</div>
+		</section>
+
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
+
+		
+		
