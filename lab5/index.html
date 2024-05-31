@@ -58,8 +58,32 @@
 					<p>This is our lab 5 index.html that we created to display our javascript code. Enjoy!</p>
 			</div>
 					<h3>Script Output</h3>
-					<p><script src="js/lab.js"></script></p>
-					<img src="img/Toyota.jpg" width=600>
+					<div class="variable-container">
+						<p id="make"></p>
+						<p id="model"></p>
+						<p id="color"></p>
+						<p id="year"></p>
+						<p id="ownIt"></p>
+					</div>
+				
+					<script>
+						// Define Variables
+						const make = "Toyota";
+						const model = "Yaris";
+						const color = "Red";
+						const year = 2018;
+						const ownIt = true;
+				
+						// Display Variables
+						document.getElementById('make').innerText = `Make: ${make}`;
+						document.getElementById('model').innerText = `Model: ${model}`;
+						document.getElementById('color').innerText = `Color: ${color}`;
+						document.getElementById('year').innerText = `Year: ${year}`;
+						document.getElementById('ownIt').innerText = `Own It: ${ownIt ? 'Yes' : 'No'}`;
+					</script>
+				</body>
+				</html>
+					<img src="img/Toyota.jpg" width=700>
 					
 
 		

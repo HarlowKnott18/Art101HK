@@ -27,15 +27,14 @@ h2 {
   
 }
 
-h3 {
-  text-decoration-thickness: 
-  ;
-}
+
+  
+
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #175320;
+  border:  10px #778579;
   background-color: #dea2f4;
 }
 
@@ -43,6 +42,8 @@ h3 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
+  margin: 10px;
+  padding-bottom: 50px;
+  border: ridge 10px #7b29d4;
   background-color: #f3ffca;
 }

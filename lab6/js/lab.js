@@ -14,12 +14,12 @@ function myFunction(param1, param2) {
   // return results;
 }
 
-//Define Variables
-myTransport = [ "Toyota Yaris" , "car", "loop bus", "metro bus", "bicycle", "walking"];
+// Define Variables
+myTransport = ["Toyota Yaris", "car", "loop bus", "metro bus", "bicycle", "walking"];
 
-//create an object for my main ride
+// Create an object for my main ride
 myMainRide = {
-  Make: "Toyota",
+    Make: "Toyota",
     Model: "Yaris",
     Color: "Red",
     Year: 2018,
@@ -32,12 +32,13 @@ myMainRide = {
 
 console.log("The car's age is: " + myMainRide.Age() + " years.");
 
-//output
-document.writeln("What Kinds of Transportation I Use:", myTransport, "</br>");
+// Output
+document.writeln("<h2>What Kinds of Transportation I Use:</h2>");
+document.writeln("<ul>");
+myTransport.forEach(function(transport) {
+    document.writeln("<li>" + transport + "</li>");
+});
+document.writeln("</ul>");
 
-document.writeln("My Main Ride: <pre>", 
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
-
-
-
-
+document.writeln("<h2>My Main Ride:</h2>");
+document.writeln("<pre>" + JSON.stringify(myMainRide, null, '\t') + "</pre>");

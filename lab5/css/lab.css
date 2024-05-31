@@ -46,3 +46,28 @@ h3 {
   border: solid 1px #6368fe;
   background-color: #ff8adc;
 }
+
+
+/* Container for the variables */
+.variable-container {
+  background: rgba(255, 57, 57, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 300px;
+}
+
+/* Styling for each variable */
+.variable-container p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.variable-container p:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
