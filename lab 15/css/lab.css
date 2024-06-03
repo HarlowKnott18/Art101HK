@@ -1,0 +1,78 @@
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: ridge 15px #48e2e5;
+  background-color: #ee7fe3;
+}
+
+#content {
+  margin: 10px;
+  padding-bottom: 50px;
+  border: ridge 10px #f374b4;
+  background-color: #f5df92;
+}
+
+body {
+  background-color: #1adef8;
+
+}
+
+
+h1,h2,h3 {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 5px
+ 
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+
+ 
+}
+
+#displayButton {
+  background-color: #1adef8; 
+  border: 5px ridge #f5df92; 
+  color: rgb(0, 0, 0); 
+  padding: 10px 25px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block; 
+  font-size: 18px; 
+  margin: 4px 2px; 
+  cursor: pointer;
+  border-radius: 0px; 
+}
+#displayButton:hover {
+  background-color: rgb(7, 255, 247); 
+  color: #000000; 
+}
+
+#answer {
+  display: inline-block;
+  max-width: 100%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #f5df92; 
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
